@@ -4,6 +4,7 @@ let turn = '0';
 let gameover = false;
 console.log('hy');
 function changeturn() {
+    
     if (turn === 'X') {
         return '0';
     } else {
