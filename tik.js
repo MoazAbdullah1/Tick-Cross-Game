@@ -30,6 +30,7 @@ function checkwin() {
             gameover = true
         }
     })
+    
 }
 Array.from(boxs).forEach((element) => {
     let text = element.querySelector('.boxtext');
